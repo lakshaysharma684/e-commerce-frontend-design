@@ -1,0 +1,703 @@
+{
+    "success": true,
+    "data": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 8,
+                "sku": "MADHOSH_MIX_001",
+                "category_id": 9,
+                "name": "Madhosh Mix",
+                "description": "{\"DESCRIPTION\":\"Madhosh Mix: The Taste of Murthal<br><br>Indulge in our Madhosh Mix, a vibrant medley that captures the spirited essence of Murthal's culinary heritage. This delightful mix features a tantalizing combination of spices, crunchy ingredients, and bold flavors that create a truly addictive snack.<br><br>Perfect for munching on its own or as a zesty topping for your favorite dishes, Madhosh Mix is a celebration of taste and tradition. Each bite offers a burst of savory goodness that will keep you coming back for more, embodying the lively spirit of Murthal in every handful.<br><br>Crafted with all-natural ingredients, our Madhosh Mix is the ideal companion for gatherings or a flavorful treat to enjoy anytime. Experience the authentic taste of Murthal with this deliciously irresistible\u00a0blend!\",\"INGREDIENTS\":\"Aam, Nimbu, Teent, Gajar, Kamal Kakadi, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso rail, Dhaniya powder, Haldo powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur dher sara pyaar\",\"STORAGE INFO\":\"Best Before One Year From Manufacturing\",\"INSTRUCTIONS\":\"Do not buy or use if the glass or seal is broken. Store in cool, dry and hygienic place. Do not store in metallic utensils. Do not use wet spoon. Wash hands before use.\"}",
+                "final_price": "499.00",
+                "product_images": {
+                    "banner": [
+                        "madhosh_mix_1.png",
+                        "madhosh_mix_2.png"
+                    ],
+                    "detail": [
+                        "madhosh_mix_1.jpeg",
+                        "madhosh_mix_2.jpeg",
+                        "madhosh_mix_3.jpeg",
+                        "madhosh_mix_4.jpeg",
+                        "madhosh_mix_5.jpeg"
+                    ]
+                },
+                "category": {
+                    "id": 9,
+                    "name": "Acchar",
+                    "description": "Increase taste of food",
+                    "parent_id": null,
+                    "is_active": "1",
+                    "is_deleted": "0",
+                    "created_at": "2024-10-13T10:10:04.000000Z",
+                    "updated_at": "2024-10-13T10:10:04.000000Z"
+                },
+                "variations": [
+                    {
+                        "id": 3,
+                        "product_id": 8,
+                        "variant_name": "500 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "499.00",
+                        "final_price": "499.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-10-15T22:40:25.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-10-15T22:40:25.000000Z",
+                        "modified_by": 1002
+                    },
+                    {
+                        "id": 4,
+                        "product_id": 8,
+                        "variant_name": "250 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "299.00",
+                        "final_price": "299.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-10-15T22:40:25.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-10-15T22:40:25.000000Z",
+                        "modified_by": 1002
+                    },
+                    {
+                        "id": 24,
+                        "product_id": 8,
+                        "variant_name": "100 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "150.00",
+                        "final_price": "150.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-11-23T13:34:11.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-11-23T13:34:11.000000Z",
+                        "modified_by": 1002
+                    }
+                ],
+                "review_stats": {
+                    "total_reviews": 0,
+                    "average_rating": 0
+                }
+            },
+            {
+                "id": 9,
+                "sku": "GOL_MATOL_TEENT_001",
+                "category_id": 9,
+                "name": "Gol Matol Teent",
+                "description": "{\"DESCRIPTION\":\"Gol Matol Teent: A Burst of Flavor<br><br>Introducing our Gol Matol Teent, a delightful blend that captures the essence of traditional Indian flavors. These vibrant, round vegetables are expertly seasoned with a unique mix of spices, delivering a deliciously tangy and spicy experience in every bite.<br><br>Perfect as a side dish or a flavorful addition to your meals, Gol Matol Teent is not just a dish; it\u2019s a celebration of culinary heritage. The rich flavors and enticing aroma will transport you straight to the heart of Indian kitchens, where every meal is a feast.<br><br>Made with all-natural ingredients, our Gol Matol Teent promises a taste experience that is both authentic and memorable. Bring this burst of flavor to your table and enjoy a true taste\u00a0of\u00a0tradition!\",\"INGREDIENTS\":\"Teent, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur dher sara pyaar\",\"STORAGE INFO\":\"Best Before One Year From Manufacturing\",\"INSTRUCTIONS\":\"Do not buy or use if the glass or seal is broken. Store in cool, dry and hygienic place. Do not store in metallic utensils. Do not use wet spoon. Wash hands before use.\"}",
+                "final_price": "499.00",
+                "product_images": {
+                    "banner": [
+                        "gol_matol_teent_1.png",
+                        "gol_matol_teent_2.png"
+                    ],
+                    "detail": [
+                        "gol_matol_teent_1.jpeg",
+                        "gol_matol_teent_2.jpeg",
+                        "gol_matol_teent_3.jpeg",
+                        "gol_matol_teent_4.jpeg",
+                        "gol_matol_teent_5.jpeg"
+                    ]
+                },
+                "category": {
+                    "id": 9,
+                    "name": "Acchar",
+                    "description": "Increase taste of food",
+                    "parent_id": null,
+                    "is_active": "1",
+                    "is_deleted": "0",
+                    "created_at": "2024-10-13T10:10:04.000000Z",
+                    "updated_at": "2024-10-13T10:10:04.000000Z"
+                },
+                "variations": [
+                    {
+                        "id": 5,
+                        "product_id": 9,
+                        "variant_name": "500 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "499.00",
+                        "final_price": "499.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-10-15T22:40:26.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-10-15T22:40:26.000000Z",
+                        "modified_by": 1002
+                    },
+                    {
+                        "id": 6,
+                        "product_id": 9,
+                        "variant_name": "250 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "299.00",
+                        "final_price": "299.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-10-15T22:40:26.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-10-15T22:40:26.000000Z",
+                        "modified_by": 1002
+                    },
+                    {
+                        "id": 23,
+                        "product_id": 9,
+                        "variant_name": "100 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "150.00",
+                        "final_price": "150.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-11-23T13:34:07.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-11-23T13:34:07.000000Z",
+                        "modified_by": 1002
+                    }
+                ],
+                "review_stats": {
+                    "total_reviews": 0,
+                    "average_rating": 0
+                }
+            },
+            {
+                "id": 10,
+                "sku": "KHATTA_MEETHA_NIMBU_001",
+                "category_id": 9,
+                "name": "Khatta Meetha Nimbu",
+                "description": "{\"DESCRIPTION\":\"Khatta Meetha Nimbu: The Taste of Murthal<br><br>Discover the perfect balance of tangy and sweet with our Khatta Meetha Nimbu, a delightful condiment inspired by the vibrant flavors of Murthal. This zesty lemon pickle combines the freshness of ripe lemons with a harmonious blend of spices and sweetness, creating a truly unique taste experience.<br><br>Ideal as a companion for your favorite meals, this pickle adds a refreshing kick to parathas, rice, or even snacks. Each spoonful captures the essence of Murthal\u2019s culinary heritage, bringing a burst of flavor to your table.<br><br>Crafted with all-natural ingredients, our Khatta Meetha Nimbu is not just a condiment\u2014it\u2019s a celebration of tradition and taste. Elevate your dining experience and enjoy the deliciously tangy charm of Murthal with\u00a0every\u00a0bite!\",\"INGREDIENTS\":\"Desi Nimbu, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi powder, Kashmiri lal mirch, Sada namak, Methi powder, Chini, Ajvain, aur dher sara pyaar\",\"STORAGE INFO\":\"Best Before One Year From Manufacturing\",\"INSTRUCTIONS\":\"Do not buy or use if the glass or seal is broken. Store in cool, dry and hygienic place. Do not store in metallic utensils. Do not use wet spoon. Wash hands before use.\"}",
+                "final_price": "499.00",
+                "product_images": {
+                    "banner": [
+                        "khatta_meetha_nimbu_1.png",
+                        "khatta_meetha_nimbu_2.png"
+                    ],
+                    "detail": [
+                        "khatta_meetha_nimbu_1.jpeg",
+                        "khatta_meetha_nimbu_2.jpeg",
+                        "khatta_meetha_nimbu_3.jpeg",
+                        "khatta_meetha_nimbu_4.jpeg"
+                    ]
+                },
+                "category": {
+                    "id": 9,
+                    "name": "Acchar",
+                    "description": "Increase taste of food",
+                    "parent_id": null,
+                    "is_active": "1",
+                    "is_deleted": "0",
+                    "created_at": "2024-10-13T10:10:04.000000Z",
+                    "updated_at": "2024-10-13T10:10:04.000000Z"
+                },
+                "variations": [
+                    {
+                        "id": 7,
+                        "product_id": 10,
+                        "variant_name": "500 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "499.00",
+                        "final_price": "499.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-10-15T22:40:26.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-10-15T22:40:26.000000Z",
+                        "modified_by": 1002
+                    },
+                    {
+                        "id": 8,
+                        "product_id": 10,
+                        "variant_name": "250 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "299.00",
+                        "final_price": "299.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-10-15T22:40:26.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-10-15T22:40:26.000000Z",
+                        "modified_by": 1002
+                    },
+                    {
+                        "id": 22,
+                        "product_id": 10,
+                        "variant_name": "100 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "150.00",
+                        "final_price": "150.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-11-23T13:34:04.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-11-23T13:34:04.000000Z",
+                        "modified_by": 1002
+                    }
+                ],
+                "review_stats": {
+                    "total_reviews": 0,
+                    "average_rating": 0
+                }
+            },
+            {
+                "id": 11,
+                "sku": "PAPATTEDAAR_MANGO_PICKLE_001",
+                "category_id": 9,
+                "name": "Papattedaar Mango Pickle",
+                "description": "{\"DESCRIPTION\":\"Papattedaar Mango Pickle: The Essence of Murthal<br><br>Savor the authentic taste of Murthal with our Papattedaar Mango Pickle, a delightful fusion of handpicked mangoes and a special blend of spices. This artisanal pickle brings together the tangy crunch of perfectly ripened mangoes with the bold flavors that define traditional Indian cuisine.<br><br>Crafted with care, our Papattedaar Mango Pickle captures the spirit of home-cooked goodness, making it a perfect companion for parathas, rice dishes, or simply enjoyed straight from the jar. Each bite offers a delicious reminder of the rich culinary heritage of Murthal.<br><br>Made with all-natural ingredients and without artificial preservatives, this pickle promises to elevate your meals and add a burst of flavor to your table. Bring home the taste of Murthal with our Papattedaar Mango Pickle and let every meal become\u00a0a\u00a0celebration!\",\"INGREDIENTS\":\"Kacha Aam, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur aur dher sara pyaar.\",\"STORAGE INFO\":\"Best Before One Year From Manufacturing\",\"INSTRUCTIONS\":\"Do not buy or use if the glass or seal is broken. Store in cool, dry and hygienic place. Do not store in metallic utensils. Do not use wet spoon. Wash hands before use.\"}",
+                "final_price": "499.00",
+                "product_images": {
+                    "banner": [
+                        "papattedaar_mango_pickle_1.png",
+                        "papattedaar_mango_pickle_2.png"
+                    ],
+                    "detail": [
+                        "papattedaar_mango_pickle_1.jpeg",
+                        "papattedaar_mango_pickle_2.jpeg",
+                        "papattedaar_mango_pickle_3.jpeg",
+                        "papattedaar_mango_pickle_4.jpeg",
+                        "papattedaar_mango_pickle_5.jpeg"
+                    ]
+                },
+                "category": {
+                    "id": 9,
+                    "name": "Acchar",
+                    "description": "Increase taste of food",
+                    "parent_id": null,
+                    "is_active": "1",
+                    "is_deleted": "0",
+                    "created_at": "2024-10-13T10:10:04.000000Z",
+                    "updated_at": "2024-10-13T10:10:04.000000Z"
+                },
+                "variations": [
+                    {
+                        "id": 9,
+                        "product_id": 11,
+                        "variant_name": "500 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "499.00",
+                        "final_price": "499.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-10-15T22:40:26.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-10-15T22:40:26.000000Z",
+                        "modified_by": 1002
+                    },
+                    {
+                        "id": 10,
+                        "product_id": 11,
+                        "variant_name": "250 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "299.00",
+                        "final_price": "299.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-10-15T22:40:26.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-10-15T22:40:26.000000Z",
+                        "modified_by": 1002
+                    },
+                    {
+                        "id": 21,
+                        "product_id": 11,
+                        "variant_name": "100 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "150.00",
+                        "final_price": "150.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-11-23T13:34:02.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-11-23T13:34:02.000000Z",
+                        "modified_by": 1002
+                    }
+                ],
+                "review_stats": {
+                    "total_reviews": 0,
+                    "average_rating": 0
+                }
+            },
+            {
+                "id": 12,
+                "sku": "CHARCHARI_MIRCH_001",
+                "category_id": 9,
+                "name": "Charchari Mirch",
+                "description": "{\"DESCRIPTION\":\"Charchari Mirch: The Taste of Murthal<br><br>Delight in the authentic flavors of our Charchari Mirch, a dish that brings the vibrant essence of Murthal straight to your table. This tantalizing preparation features fresh green chilies cooked to perfection with a medley of spices, delivering a bold and zesty experience that\u2019s sure to impress.<br><br>Our Charchari Mirch is a perfect blend of spice and tang, making it an ideal companion for parathas, rice, or even as a standalone snack. Each bite captures the rich culinary heritage of Murthal, celebrating the region's love for bold, mouthwatering flavors.<br><br>Crafted with all-natural ingredients, our Charchari Mirch promises to elevate your meals and awaken your palate. Experience the true taste of Murthal with this deliciously spicy dish!\",\"INGREDIENTS\":\"Hari mirch, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Pili sarso tail, Dhaniya powder, Haldi Powder, Kashmiri lal mirch, Sada namak, methi powder, Ajvain aur dher sara pyaar.\",\"STORAGE INFO\":\"Best Before One Year From Manufacturing\",\"INSTRUCTIONS\":\"Do not buy or use if the glass or seal is broken. Store in cool, dry and hygienic place. Do not store in metallic utensils. Do not use wet spoon. Wash hands before use.\"}",
+                "final_price": "499.00",
+                "product_images": {
+                    "banner": [
+                        "charchari_mirch_1.png",
+                        "charchari_mirch_2.png"
+                    ],
+                    "detail": [
+                        "charchari_mirch_1.jpeg",
+                        "charchari_mirch_2.jpeg",
+                        "charchari_mirch_3.jpeg",
+                        "charchari_mirch_4.jpeg",
+                        "charchari_mirch_5.jpeg"
+                    ]
+                },
+                "category": {
+                    "id": 9,
+                    "name": "Acchar",
+                    "description": "Increase taste of food",
+                    "parent_id": null,
+                    "is_active": "1",
+                    "is_deleted": "0",
+                    "created_at": "2024-10-13T10:10:04.000000Z",
+                    "updated_at": "2024-10-13T10:10:04.000000Z"
+                },
+                "variations": [
+                    {
+                        "id": 11,
+                        "product_id": 12,
+                        "variant_name": "500 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "499.00",
+                        "final_price": "499.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-10-15T22:40:27.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-10-15T22:40:27.000000Z",
+                        "modified_by": 1002
+                    },
+                    {
+                        "id": 12,
+                        "product_id": 12,
+                        "variant_name": "250 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "299.00",
+                        "final_price": "299.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-10-15T22:40:27.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-10-15T22:40:27.000000Z",
+                        "modified_by": 1002
+                    },
+                    {
+                        "id": 20,
+                        "product_id": 12,
+                        "variant_name": "100 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "150.00",
+                        "final_price": "150.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-11-23T13:34:00.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-11-23T13:34:00.000000Z",
+                        "modified_by": 1002
+                    }
+                ],
+                "review_stats": {
+                    "total_reviews": 0,
+                    "average_rating": 0
+                }
+            },
+            {
+                "id": 13,
+                "sku": "LAZIZ_LEHSUN_001",
+                "category_id": 9,
+                "name": "Laziz Lehsun",
+                "description": "{\"DESCRIPTION\":\"Laziz Lehsun: The Taste of Murthal<br><br>Elevate your culinary experience with our Laziz Lehsun, a delicious tribute to the vibrant flavors of Murthal. This irresistible garlic preparation features perfectly roasted garlic infused with a unique blend of spices, delivering a bold and aromatic punch that enhances any dish.<br><br>Whether used as a flavorful condiment, a zesty addition to curries, or a tasty spread for breads, Laziz Lehsun captures the essence of traditional Indian kitchens. Each jar is packed with the warmth and richness of Murthal's culinary heritage, making it a must-have for every food lover.<br><br>Crafted with all-natural ingredients, our Laziz Lehsun is a versatile companion that adds depth and flavor to your meals. Experience the true taste of Murthal and let the rich aroma of garlic transform your dining table!\",\"INGREDIENTS\":\"Lehsun, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur dher sara pyar.\",\"STORAGE INFO\":\"Best Before One Year From Manufacturing\",\"INSTRUCTIONS\":\"Do not buy or use if the glass or seal is broken. Store in cool, dry and hygienic place. Do not store in metallic utensils. Do not use wet spoon. Wash hands before use.\"}",
+                "final_price": "499.00",
+                "product_images": {
+                    "banner": [
+                        "laziz_lehsun_1.png",
+                        "laziz_lehsun_2.png"
+                    ],
+                    "detail": [
+                        "laziz_lehsun_1.jpeg",
+                        "laziz_lehsun_2.jpeg",
+                        "laziz_lehsun_3.jpeg",
+                        "laziz_lehsun_4.jpeg",
+                        "laziz_lehsun_5.jpeg"
+                    ]
+                },
+                "category": {
+                    "id": 9,
+                    "name": "Acchar",
+                    "description": "Increase taste of food",
+                    "parent_id": null,
+                    "is_active": "1",
+                    "is_deleted": "0",
+                    "created_at": "2024-10-13T10:10:04.000000Z",
+                    "updated_at": "2024-10-13T10:10:04.000000Z"
+                },
+                "variations": [
+                    {
+                        "id": 13,
+                        "product_id": 13,
+                        "variant_name": "500 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "499.00",
+                        "final_price": "499.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-10-15T22:40:27.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-10-15T22:40:27.000000Z",
+                        "modified_by": 1002
+                    },
+                    {
+                        "id": 14,
+                        "product_id": 13,
+                        "variant_name": "250 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "299.00",
+                        "final_price": "299.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-10-15T22:40:27.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-10-15T22:40:27.000000Z",
+                        "modified_by": 1002
+                    },
+                    {
+                        "id": 19,
+                        "product_id": 13,
+                        "variant_name": "100 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "150.00",
+                        "final_price": "150.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-11-23T13:33:07.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-11-23T13:33:07.000000Z",
+                        "modified_by": 1002
+                    }
+                ],
+                "review_stats": {
+                    "total_reviews": 0,
+                    "average_rating": 0
+                }
+            },
+            {
+                "id": 15,
+                "sku": "TASTE_COMBO_1",
+                "category_id": 9,
+                "name": "TASTE COMBO 1",
+                "description": "{\"DESCRIPTION\":\"<b>Papattedaar Mango Pickle<\/b>: The Essence of Murthal<br><br>Savor the authentic taste of Murthal with our Papattedaar Mango Pickle, a delightful fusion of handpicked mangoes and a special blend of spices. This artisanal pickle brings together the tangy crunch of perfectly ripened mangoes with the bold flavors that define traditional Indian cuisine.<br><br>Crafted with care, our Papattedaar Mango Pickle captures the spirit of home-cooked goodness, making it a perfect companion for parathas, rice dishes, or simply enjoyed straight from the jar. Each bite offers a delicious reminder of the rich culinary heritage of Murthal.<br><br>Made with all-natural ingredients and without artificial preservatives, this pickle promises to elevate your meals and add a burst of flavor to your table. Bring home the taste of Murthal with our Papattedaar Mango Pickle and let every meal become a celebration!<br><br><b>Khatta Meetha Nimbu<\/b>: The Taste of Murthal<br><br>Discover the perfect balance of tangy and sweet with our Khatta Meetha Nimbu, a delightful condiment inspired by the vibrant flavors of Murthal. This zesty lemon pickle combines the freshness of ripe lemons with a harmonious blend of spices and sweetness, creating a truly unique taste experience.<br><br>Ideal as a companion for your favorite meals, this pickle adds a refreshing kick to parathas, rice, or even snacks. Each spoonful captures the essence of Murthals culinary heritage, bringing a burst of flavor to your table.<br><br>Crafted with all-natural ingredients, our Khatta Meetha Nimbu is not just a condiment\u2014its a celebration of tradition and taste. Elevate your dining experience and enjoy the deliciously tangy charm of Murthal with every bite!<br><br><b>Charchari Mirch<\/b>: The Taste of Murthal<br><br>Delight in the authentic flavors of our Charchari Mirch, a dish that brings the vibrant essence of Murthal straight to your table. This tantalizing preparation features fresh green chilies cooked to perfection with a medley of spices, delivering a bold and zesty experience thats sure to impress.<br><br>Our Charchari Mirch is a perfect blend of spice and tang, making it an ideal companion for parathas, rice, or even as a standalone snack. Each bite captures the rich culinary heritage of Murthal, celebrating the region's love for bold, mouthwatering flavors.<br><br>Crafted with all-natural ingredients, our Charchari Mirch promises to elevate your meals and awaken your palate. Experience the true taste of Murthal with this deliciously spicy dish!<br><br><b>Laziz Lehsun<\/b>: The Taste of Murthal<br><br>Elevate your culinary experience with our Laziz Lehsun, a delicious tribute to the vibrant flavors of Murthal. This irresistible garlic preparation features perfectly roasted garlic infused with a unique blend of spices, delivering a bold and aromatic punch that enhances any dish.<br><br>Whether used as a flavorful condiment, a zesty addition to curries, or a tasty spread for breads, Laziz Lehsun captures the essence of traditional Indian kitchens. Each jar is packed with the warmth and richness of Murthal's culinary heritage, making it a must-have for every food lover.<br><br>Crafted with all-natural ingredients, our Laziz Lehsun is a versatile companion that adds depth and flavor to your meals. Experience the true taste of Murthal and let the rich aroma of garlic transform your dining table!<br><br>\",\"INGREDIENTS\":\"<b>Papattedaar Mango Pickle<\/b>:<br><br>Kacha Aam, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur aur dher sara pyaar.<br><br><b>Khatta Meetha Nimbu<\/b>:<br><br>Desi Nimbu, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi powder, Kashmiri lal mirch, Sada namak, Methi powder, Chini, Ajvain, aur dher sara pyaar<br><br><b>Charchari Mirch<\/b>:<br><br>Hari mirch, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Pili sarso tail, Dhaniya powder, Haldi Powder, Kashmiri lal mirch, Sada namak, methi powder, Ajvain aur dher sara pyaar.<br><br><b>Laziz Lehsun<\/b>:<br><br>Lehsun, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur dher sara pyar.<br><br>\",\"STORAGE INFO\":\"Best Before One Year From Manufacturing\",\"INSTRUCTIONS\":\"Do not buy or use if the glass or seal is broken. Store in cool, dry and hygienic place. Do not store in metallic utensils. Do not use wet spoon. Wash hands before use.\"}",
+                "final_price": "499.00",
+                "product_images": {
+                    "banner": [
+                        "taste_combo_1_1.png",
+                        "taste_combo_1_2.png"
+                    ],
+                    "detail": [
+                        "taste_combo_1_1.png",
+                        "taste_combo_1_2.jpeg",
+                        "taste_combo_1_4.jpeg",
+                        "taste_combo_1_6.jpeg",
+                        "taste_combo_1_8.jpeg"
+                    ]
+                },
+                "category": {
+                    "id": 9,
+                    "name": "Acchar",
+                    "description": "Increase taste of food",
+                    "parent_id": null,
+                    "is_active": "1",
+                    "is_deleted": "0",
+                    "created_at": "2024-10-13T10:10:04.000000Z",
+                    "updated_at": "2024-10-13T10:10:04.000000Z"
+                },
+                "variations": [
+                    {
+                        "id": 16,
+                        "product_id": 15,
+                        "variant_name": "400 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "499.00",
+                        "final_price": "499.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-11-03T12:51:04.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-11-03T12:51:04.000000Z",
+                        "modified_by": 1002
+                    }
+                ],
+                "review_stats": {
+                    "total_reviews": 1,
+                    "average_rating": 5
+                }
+            },
+            {
+                "id": 16,
+                "sku": "TASTE_COMBO_2",
+                "category_id": 9,
+                "name": "TASTE COMBO 2",
+                "description": "{\"DESCRIPTION\":\"<b>Papattedaar Mango Pickle<\/b>: The Essence of Murthal<br><br>Savor the authentic taste of Murthal with our Papattedaar Mango Pickle, a delightful fusion of handpicked mangoes and a special blend of spices. This artisanal pickle brings together the tangy crunch of perfectly ripened mangoes with the bold flavors that define traditional Indian cuisine.<br><br>Crafted with care, our Papattedaar Mango Pickle captures the spirit of home-cooked goodness, making it a perfect companion for parathas, rice dishes, or simply enjoyed straight from the jar. Each bite offers a delicious reminder of the rich culinary heritage of Murthal.<br><br>Made with all-natural ingredients and without artificial preservatives, this pickle promises to elevate your meals and add a burst of flavor to your table. Bring home the taste of Murthal with our Papattedaar Mango Pickle and let every meal become a celebration!<br><br><b>Khatta Meetha Nimbu<\/b>: The Taste of Murthal<br><br>Discover the perfect balance of tangy and sweet with our Khatta Meetha Nimbu, a delightful condiment inspired by the vibrant flavors of Murthal. This zesty lemon pickle combines the freshness of ripe lemons with a harmonious blend of spices and sweetness, creating a truly unique taste experience.<br><br>Ideal as a companion for your favorite meals, this pickle adds a refreshing kick to parathas, rice, or even snacks. Each spoonful captures the essence of Murthal\u2019s culinary heritage, bringing a burst of flavor to your table.<br><br>Crafted with all-natural ingredients, our Khatta Meetha Nimbu is not just a condiment\u2014it\u2019s a celebration of tradition and taste. Elevate your dining experience and enjoy the deliciously tangy charm of Murthal with every bite!<br><br><b>Gol Matol Teent<\/b>: A Burst of Flavor<br><br>Introducing our Gol Matol Teent, a delightful blend that captures the essence of traditional Indian flavors. These vibrant, round vegetables are expertly seasoned with a unique mix of spices, delivering a deliciously tangy and spicy experience in every bite.<br><br>Perfect as a side dish or a flavorful addition to your meals, Gol Matol Teent is not just a dish; it\u2019s a celebration of culinary heritage. The rich flavors and enticing aroma will transport you straight to the heart of Indian kitchens, where every meal is a feast.<br><br>Made with all-natural ingredients, our Gol Matol Teent promises a taste experience that is both authentic and memorable. Bring this burst of flavor to your table and enjoy a true taste of tradition!<br><br><b>Madhosh Mix<\/b>: The Taste of Murthal<br><br>Indulge in our Madhosh Mix, a vibrant medley that captures the spirited essence of Murthals culinary heritage. This delightful mix features a tantalizing combination of spices, crunchy ingredients, and bold flavors that create a truly addictive snack.<br><br>Perfect for munching on its own or as a zesty topping for your favorite dishes, Madhosh Mix is a celebration of taste and tradition. Each bite offers a burst of savory goodness that will keep you coming back for more, embodying the lively spirit of Murthal in every handful.<br><br>Crafted with all-natural ingredients, our Madhosh Mix is the ideal companion for gatherings or a flavorful treat to enjoy anytime. Experience the authentic taste of Murthal with this deliciously irresistible blend!\",\"INGREDIENTS\":\"<b>Papattedaar Mango Pickle<\/b>:<br><br>Kacha Aam, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur aur dher sara pyaar.<br><br><b>Khatta Meetha Nimbu<\/b>:<br><br>Desi Nimbu, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi powder, Kashmiri lal mirch, Sada namak, Methi powder, Chini, Ajvain, aur dher sara pyaar<br><br><b>Gol Matol Teent<\/b>:<br><br>Teent, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur dher sara pyaar.<br><br><b>Madhosh Mix<\/b>:<br><br>Aam, Nimbu, Teent, Gajar, Kamal Kakadi, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso rail, Dhaniya powder, Haldo powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur dher sara pyaar.\",\"STORAGE INFO\":\"Best Before One Year From Manufacturing\",\"INSTRUCTIONS\":\"Do not buy or use if the glass or seal is broken. Store in cool, dry and hygienic place. Do not store in metallic utensils. Do not use wet spoon. Wash hands before use.\"}",
+                "final_price": "499.00",
+                "product_images": {
+                    "banner": [
+                        "taste_combo_2_1.png",
+                        "taste_combo_2_2.png"
+                    ],
+                    "detail": [
+                        "taste_combo_2_1.png",
+                        "taste_combo_2_2.jpeg",
+                        "taste_combo_2_4.jpeg",
+                        "taste_combo_2_6.jpeg",
+                        "taste_combo_2_8.jpeg"
+                    ]
+                },
+                "category": {
+                    "id": 9,
+                    "name": "Acchar",
+                    "description": "Increase taste of food",
+                    "parent_id": null,
+                    "is_active": "1",
+                    "is_deleted": "0",
+                    "created_at": "2024-10-13T10:10:04.000000Z",
+                    "updated_at": "2024-10-13T10:10:04.000000Z"
+                },
+                "variations": [
+                    {
+                        "id": 17,
+                        "product_id": 16,
+                        "variant_name": "400 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "499.00",
+                        "final_price": "499.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-11-03T12:53:10.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-11-03T12:53:10.000000Z",
+                        "modified_by": 1002
+                    }
+                ],
+                "review_stats": {
+                    "total_reviews": 0,
+                    "average_rating": 0
+                }
+            },
+            {
+                "id": 17,
+                "sku": "TASTE_COMBO_3",
+                "category_id": 9,
+                "name": "TASTE COMBO 3",
+                "description": "{\"DESCRIPTION\":\"<b>Charchari Mirch<\/b>: The Taste of Murthal<br><br>Delight in the authentic flavors of our Charchari Mirch, a dish that brings the vibrant essence of Murthal straight to your table. This tantalizing preparation features fresh green chilies cooked to perfection with a medley of spices, delivering a bold and zesty experience that\u2019s sure to impress.<br><br>Our Charchari Mirch is a perfect blend of spice and tang, making it an ideal companion for parathas, rice, or even as a standalone snack. Each bite captures the rich culinary heritage of Murthal, celebrating the region's love for bold, mouthwatering flavors.<br><br>Crafted with all-natural ingredients, our Charchari Mirch promises to elevate your meals and awaken your palate. Experience the true taste of Murthal with this deliciously spicy dish!<br><br><b>Laziz Lehsun<\/b>: The Taste of Murthal<br><br>Elevate your culinary experience with our Laziz Lehsun, a delicious tribute to the vibrant flavors of Murthal. This irresistible garlic preparation features perfectly roasted garlic infused with a unique blend of spices, delivering a bold and aromatic punch that enhances any dish.<br><br>Whether used as a flavorful condiment, a zesty addition to curries, or a tasty spread for breads, Laziz Lehsun captures the essence of traditional Indian kitchens. Each jar is packed with the warmth and richness of Murthal's culinary heritage, making it a must-have for every food lover.<br><br>Crafted with all-natural ingredients, our Laziz Lehsun is a versatile companion that adds depth and flavor to your meals. Experience the true taste of Murthal and let the rich aroma of garlic transform your dining table!<br><br><b>Gol Matol Teent<\/b>: A Burst of Flavor<br><br>Introducing our Gol Matol Teent, a delightful blend that captures the essence of traditional Indian flavors. These vibrant, round vegetables are expertly seasoned with a unique mix of spices, delivering a deliciously tangy and spicy experience in every bite.<br><br>Perfect as a side dish or a flavorful addition to your meals, Gol Matol Teent is not just a dish; it\u2019s a celebration of culinary heritage. The rich flavors and enticing aroma will transport you straight to the heart of Indian kitchens, where every meal is a feast.<br><br>Made with all-natural ingredients, our Gol Matol Teent promises a taste experience that is both authentic and memorable. Bring this burst of flavor to your table and enjoy a true taste of tradition!<br><br><b>Madhosh Mix<\/b>: The Taste of Murthal<br><br>Indulge in our Madhosh Mix, a vibrant medley that captures the spirited essence of Murthal's culinary heritage. This delightful mix features a tantalizing combination of spices, crunchy ingredients, and bold flavors that create a truly addictive snack.<br><br>Perfect for munching on its own or as a zesty topping for your favorite dishes, Madhosh Mix is a celebration of taste and tradition. Each bite offers a burst of savory goodness that will keep you coming back for more, embodying the lively spirit of Murthal in every handful.<br><br>Crafted with all-natural ingredients, our Madhosh Mix is the ideal companion for gatherings or a flavorful treat to enjoy anytime. Experience the authentic taste of Murthal with this deliciously irresistible blend!\",\"INGREDIENTS\":\"<b>Charchari Mirch<\/b>:<br><br>Hari mirch, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Pili sarso tail, Dhaniya powder, Haldi Powder, Kashmiri lal mirch, Sada namak, methi powder, Ajvain aur dher sara pyaar.<br><br><b>Laziz Lehsun<\/b>:<br><br>Lehsun, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur dher sara pyar.<br><br><b>Gol Matol Teent<\/b>:<br><br>Teent, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur dher sara pyaar.<br><br><b>Madhosh Mix<\/b>:<br><br>Aam, Nimbu, Teent, Gajar, Kamal Kakadi, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso rail, Dhaniya powder, Haldo powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur dher sara pyaar.\",\"STORAGE INFO\":\"Best Before One Year From Manufacturing\",\"INSTRUCTIONS\":\"Do not buy or use if the glass or seal is broken. Store in cool, dry and hygienic place. Do not store in metallic utensils. Do not use wet spoon. Wash hands before use.\"}",
+                "final_price": "499.00",
+                "product_images": {
+                    "banner": [
+                        "taste_combo_3_1.png",
+                        "taste_combo_3_2.png"
+                    ],
+                    "detail": [
+                        "taste_combo_3_1.png",
+                        "taste_combo_3_2.jpeg",
+                        "taste_combo_3_4.jpeg",
+                        "taste_combo_3_6.jpeg",
+                        "taste_combo_3_8.jpeg"
+                    ]
+                },
+                "category": {
+                    "id": 9,
+                    "name": "Acchar",
+                    "description": "Increase taste of food",
+                    "parent_id": null,
+                    "is_active": "1",
+                    "is_deleted": "0",
+                    "created_at": "2024-10-13T10:10:04.000000Z",
+                    "updated_at": "2024-10-13T10:10:04.000000Z"
+                },
+                "variations": [
+                    {
+                        "id": 18,
+                        "product_id": 17,
+                        "variant_name": "400 gm",
+                        "variant_unit": "gm",
+                        "sku": null,
+                        "market_retail_price": "499.00",
+                        "final_price": "499.00",
+                        "is_active": "1",
+                        "is_salable": "1",
+                        "variation_type": null,
+                        "created_at": "2024-11-03T12:53:56.000000Z",
+                        "created_by": 1002,
+                        "updated_at": "2024-11-03T12:53:56.000000Z",
+                        "modified_by": 1002
+                    }
+                ],
+                "review_stats": {
+                    "total_reviews": 0,
+                    "average_rating": 0
+                }
+            }
+        ],
+        "first_page_url": "https:\/\/myowlet.in\/api\/V1\/products?page=1",
+        "from": 1,
+        "last_page": 1,
+        "last_page_url": "https:\/\/myowlet.in\/api\/V1\/products?page=1",
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https:\/\/myowlet.in\/api\/V1\/products?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "next_page_url": null,
+        "path": "https:\/\/myowlet.in\/api\/V1\/products",
+        "per_page": 100,
+        "prev_page_url": null,
+        "to": 9,
+        "total": 9
+    }
+}

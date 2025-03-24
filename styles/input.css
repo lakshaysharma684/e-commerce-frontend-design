@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  /* color styles */
+  --color-primary: #ffa559;
+  --color-secondary: #ffd699;
+  --color-text: #6b3e26;
+  --color-bg: #fff8e1;
+  --color-section: #e0b878;
+  --color-nav: #ffc875;
+  --color-btn: #ffd700;
+  /* background color */
+  --color-primary: #ffa559;
+  --color-secondary: #ffd699;
+  --color-text: #6b3e26;
+  --color-bg: #fff8e1;
+  --color-section: #e0b878;
+  --background-color-nav: #ffc875;
+
+  /* fonts style */
+  --font-open: "Open Sans", sans-serif;
+  --font-mont: "Montserrat", sans-serif;
+
+  /* breakpoints */
+  --breakpoint-mbl: 48rem;
+  --breakpoint-tab: 64rem;
+}
+
+.glide__slide img {
+  @apply w-full rounded-lg shadow-md;
+}
+button {
+  cursor: pointer;
+}

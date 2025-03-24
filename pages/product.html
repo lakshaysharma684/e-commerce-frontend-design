@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/output.css" />
+    <!-- slider using glide -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+  </head>
+  <body>
+    <div class="text-text font-open bg-bg">
+      <!-- header for info -->
+      <header class="bg-primary p-2 border-b border-gray-400">
+        <p class="text-center text-sm">All About Sales or Event</p>
+      </header>
+
+      <!-- navbar  -->
+      <nav class="relative flex py-5 justify-between items-center">
+        <!-- left-nav icon -->
+        <div class="px-5 md:px-10">
+          <img
+            id="nav-menu"
+            class="md:hidden"
+            src="../images/menu.svg"
+            alt="Menu-icon"
+          />
+          <img
+            class="hidden md:block"
+            src="../images/search.svg"
+            alt="search-icon"
+          />
+          <img id="nav-x" src="../images/x.svg" alt="" class="hidden" />
+        </div>
+        <!-- logo and website links -->
+        <div class="md:flex md:flex-col md:items-center gap-2">
+          <img src="../images/logo-brand-image 2.png" alt="Logo-image" />
+          <!-- web nav links -->
+          <ul class="hidden md:flex items-center gap-5">
+            <li class="text-lg"><a href="#">Shop</a></li>
+            <li class="text-lg"><a href="#">Polices</a></li>
+            <li class="text-lg"><a href="#">Contact Us</a></li>
+            <li class="text-lg"><a href="#">About Us</a></li>
+          </ul>
+        </div>
+        <!-- search and cat icon section -->
+        <div class="flex items-center gap-4 px-5 md:px-10">
+          <img class="md:hidden" src="../images/search.svg" alt="search-icon" />
+          <img src="../images/shopping-bag.svg" alt="shopping-bag-icon" />
+        </div>
+
+        <!-- mobile phone links cotainer -->
+        <div
+          id="mobile-nav"
+          class="md:hidden h-96 bg-secondary absolute w-full top-20 z-20 p-5 -translate-y-[1000px] transition-transform duration-500 ease-in-out"
+        >
+          <ul class="space-y-2.5">
+            <li class="text-lg"><a href="#">Shop</a></li>
+            <li class="text-lg"><a href="#">Polices</a></li>
+            <li class="text-lg"><a href="#">Contact Us</a></li>
+            <li class="text-lg"><a href="#">About Us</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- main container -->
+      <!-- to show product details -->
+      <main class="md:flex justify-center gap-10 pt-2 md:pt-10">
+        <!-- mobile View product Image -->
+        <div
+          class="md:hidden glide glide-product flex flex-col items-center space-y-3"
+        >
+          <div class="glide__track w-[90%] h-80" data-glide-el="track">
+            <ul class="glide__slides w-[80%] h-full">
+              <li class="h-full glide__slide">
+                <img
+                  class="h-full object-cover"
+                  src="../images/cat-acchar-banner.webp"
+                  alt=""
+                />
+              </li>
+              <li
+                class="h-ful./images/cat ./images/cat ./images/cat ./images/cat ./images/catl glide__slide"
+              >
+                <img
+                  class="h-full object-cover"
+                  src="../images/cat-honey-banner.webp"
+                  alt=""
+                />
+              </li>
+              <li class="h-full glide__slide">
+                <img
+                  class="h-full object-cover"
+                  src="../images/cat-acchar-banner.webp"
+                  alt=""
+                />
+              </li>
+              <li class="h-full glide__slide">
+                <img
+                  class="h-full object-cover"
+                  src="../images/cat-honey-banner.webp"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+          <!-- slider buttons -->
+          <div
+            class="glide__arrows flex justify-center"
+            data-glide-el="controls"
+          >
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <img src="../images/chevron-left.svg" alt="" />
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <img src="../images/chevron-right.svg" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <!-- desktop view -->
+        <div class="hidden md:block space-y-4">
+          <img
+            id="product-image-web"
+            class="h-[550px] w-[610px] rounded-md object-cover"
+            src="../images/cat-acchar-banner.webp"
+            alt=""
+          />
+          <div class="option-images flex items-center gap-3">
+            <img
+              class="product-option-image h-28 w-28 rounded-md cursor-pointer object-cover opacity-40"
+              src="../images/cat-acchar-banner.webp"
+              alt=""
+            />
+            <img
+              class="product-option-image h-28 w-28 rounded-md cursor-pointer object-cover"
+              src="../images/cat-honey-banner.webp"
+              alt=""
+            />
+            <img
+              class="product-option-image h-28 w-28 rounded-md cursor-pointer object-cover"
+              src="../images/cat-acchar-banner.webp"
+              alt=""
+            />
+            <img
+              class="product-option-image h-28 w-28 rounded-md cursor-pointer object-cover"
+              src="../images/cat-honey-banner.webp"
+              alt=""
+            />
+            <img
+              class="product-option-image h-28 w-28 rounded-md cursor-pointer object-cover"
+              src="../images/cat-acchar-banner.webp"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- product details container -->
+        <div class="md:w-[30%]">
+          <!-- Product info section -->
+          <div class="px-5 space-y-2 my-6 md:my-0">
+            <!-- category title -->
+            <h3 class="text-xl">Acchar</h3>
+            <!-- product title -->
+            <h2 class="text-3xl md:text-5xl capitalize font font-mont">
+              Papattedaar Mango Pickle
+            </h2>
+            <!-- rating container -->
+            <div class="flex items-center gap-2.5">
+              <!-- rating box -->
+              <div
+                class="bg-text py-1.5 px-2 flex gap-1 items-center w-12 rounded-md"
+              >
+                <p class="text-xs text-white">4.3</p>
+                <img class="h-3 w-3" src="../images/star.png" alt="" />
+              </div>
+              <!-- reviews section -->
+              <p class="text-xs">4.8/5 Reviews</p>
+            </div>
+            <!-- Weight Section -->
+            <h3 class="md:text-xl">Weight:</h3>
+            <!-- weight buttons -->
+            <div class="flex items-center gap-3">
+              <button
+                class="size-btn px-6 h-11 rounded-md border bg-[#333] text-white"
+              >
+                250gm
+              </button>
+              <button
+                class="size-btn px-6 h-11 text-[#333] rounded-md border border-[#333]"
+              >
+                500gm
+              </button>
+            </div>
+            <!-- product price -->
+            <div class="flex items-center justify-between my-4">
+              <p class="text-xl md:text-2xl font-semibold">Rs. 499</p>
+              <div class="flex items-center">
+                <button
+                  id="sub-qnt"
+                  class="py-2 px-3 rounded-tl-md rounded-bl-md border text-center"
+                >
+                  -
+                </button>
+                <p id="val-qnt" class="py-2 px-3 border-t border-b text-center">
+                  1
+                </p>
+                <button
+                  id="add-qnt"
+                  class="py-2 rounded-tr-md rounded-br-md px-3 border text-center"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+
+            <button
+              class="bg-primary h-14 w-full rounded-md text-xl md:text-2xl md:mt-2 font-mont font-semibold"
+            >
+              Add to Cart
+            </button>
+          </div>
+
+          <!-- Accordion for product instruction description -->
+          <div class="flex flex-col items-center space-y-5 my-10">
+            <!-- product description section -->
+            <div class="w-[90%] border border-[#cecece] rounded-md">
+              <button class="accordian-btn flex justify-between w-full p-3">
+                <h3 class="text-xl md:text-2xl font-semibold font-mont">
+                  Product Description
+                </h3>
+                <img
+                  class="rotate-180"
+                  src="../images/chevron-down.svg"
+                  alt=""
+                />
+              </button>
+              <p
+                class="accordion-content md:text-base border-t border-[#cecece] text-xs p-3 tracking-wider leading-5"
+              >
+                Papattedaar Mango Pickle: The Essence of Murthal Savor the
+                authentic taste of Murthal with our Papattedaar Mango Pickle, a
+                delightful fusion of handpicked mangoes and a special blend of
+                spices. This artisanal pickle brings together the tangy crunch
+                of perfectly ripened mangoes with the bold flavors that define
+                traditional Indian cuisine. Crafted with care, our Papattedaar
+                Mango Pickle captures the spirit of home-cooked goodness, making
+                it a perfect companion for parathas, rice dishes, or simply
+                enjoyed straight from the jar. Each bite offers a delicious
+                reminder of the rich culinary heritage of Murthal.Made with
+                all-natural ingredients and without artificial preservatives,
+                this pickle promises to elevate your meals and add a burst of
+                flavor to your table. Bring home the taste of Murthal with our
+                Papattedaar Mango Pickle and let every meal
+                become a celebration!
+              </p>
+            </div>
+            <!-- product ingridents section -->
+            <div class="w-[90%] border border-[#cecece] rounded-md">
+              <button class="accordian-btn flex justify-between w-full p-3">
+                <h3 class="text-xl md:text-2xl font-semibold font-mont">
+                  Ingridents
+                </h3>
+                <img src="../images/chevron-down.svg" alt="" />
+              </button>
+              <p
+                class="accordion-content md:text-base border-t border-[#cecece] text-xs p-3 tracking-wider leading-5 hidden"
+              >
+                Kacha Aam, Garam masala, Sendha namak, Kalanamak, Kali mirch
+                powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi
+                powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur
+                aur dher sara pyaar.
+              </p>
+            </div>
+            <div class="w-[90%] border border-[#cecece] rounded-md">
+              <button class="accordian-btn flex justify-between w-full p-3">
+                <h3 class="text-xl md:text-2xl font-semibold font-mont">
+                  Ingridents
+                </h3>
+                <img src="../images/chevron-down.svg" alt="" />
+              </button>
+              <p
+                class="accordion-content md:text-base border-t border-[#cecece] text-xs p-3 tracking-wider leading-5 hidden"
+              >
+                Kacha Aam, Garam masala, Sendha namak, Kalanamak, Kali mirch
+                powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi
+                powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur
+                aur dher sara pyaar.
+              </p>
+            </div>
+            <div class="w-[90%] border border-[#cecece] rounded-md">
+              <button class="accordian-btn flex justify-between w-full p-3">
+                <h3 class="text-xl md:text-2xl font-semibold font-mont">
+                  Ingridents
+                </h3>
+                <img src="../images/chevron-down.svg" alt="" />
+              </button>
+              <p
+                class="accordion-content md:text-base border-t border-[#cecece] text-xs p-3 tracking-wider leading-5 hidden"
+              >
+                Kacha Aam, Garam masala, Sendha namak, Kalanamak, Kali mirch
+                powder, Hari mirch, Pili sarso tail, Dhaniya powder, Haldi
+                powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur
+                aur dher sara pyaar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Related Products -->
+      <div class="bg-section py-7 md:flex flex-col justify-center items-center">
+        <h3
+          class="text-center text-2xl md:text-3xl font-semibold font-mont mb-4"
+        >
+          Related Products
+        </h3>
+        <!-- Products show -->
+        <div class="md:h-full md:w-[60%]">
+          <div class="glide glide-1 pl-5 w-full overflow-hidden">
+            <!-- Slides -->
+            <div
+              class="glide__track overflow-hidden mx-auto"
+              data-glide-el="track"
+            >
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <div
+                    class="bg-secondary flex flex-col justify-center items-center gap-3 w-60 md:w-[360px] md:h-[475px] h-[365px] rounded-xl"
+                  >
+                    <!-- product image -->
+                    <div class="w-52 h-52 md:w-80 md:h-72">
+                      <img
+                        src="../images/cat-acchar-banner.webp"
+                        alt=""
+                        class="h-full w-full object-cover rounded-lg"
+                      />
+                    </div>
+                    <!-- product-info -->
+                    <div
+                      class="self-start flex items-center justify-between pl-5 w-full"
+                    >
+                      <!-- product details like name and price -->
+                      <div class="">
+                        <p class="md:text-2xl">Product Name</p>
+                        <p class="text-sm md:text-lg">$18.09</p>
+                      </div>
+
+                      <!-- product rating -->
+                      <div
+                        class="bg-text flex items-center justify-center mr-4 md:mr-6 gap-1 h-fit w-fit p-1.5 rounded-full"
+                      >
+                        <p class="text-white text-xs">4.3</p>
+                        <img src="../images/star.png" alt="" class="h-3 w-3" />
+                      </div>
+                    </div>
+                    <!-- add to cart button -->
+                    <button
+                      class="bg-primary uppercase text-center w-[80%] md:w-[90%] md:h-16 rounded-lg text-lg py-2 px-4"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div
+                    class="bg-secondary flex flex-col justify-center items-center gap-3 w-60 md:w-[360px] md:h-[475px] h-[365px] rounded-xl"
+                  >
+                    <!-- product image -->
+                    <div class="w-52 h-52 md:w-80 md:h-72">
+                      <img
+                        src="../images/cat-acchar-banner.webp"
+                        alt=""
+                        class="h-full w-full object-cover rounded-lg"
+                      />
+                    </div>
+                    <!-- product-info -->
+                    <div
+                      class="self-start flex items-center justify-between pl-5 w-full"
+                    >
+                      <!-- product details like name and price -->
+                      <div class="">
+                        <p class="md:text-2xl">Product Name</p>
+                        <p class="text-sm md:text-lg">$18.09</p>
+                      </div>
+
+                      <!-- product rating -->
+                      <div
+                        class="bg-text flex items-center justify-center mr-4 md:mr-6 gap-1 h-fit w-fit p-1.5 rounded-full"
+                      >
+                        <p class="text-white text-xs">4.3</p>
+                        <img src="../images/star.png" alt="" class="h-3 w-3" />
+                      </div>
+                    </div>
+                    <!-- add to cart button -->
+                    <button
+                      class="bg-primary uppercase text-center w-[80%] md:w-[90%] md:h-16 rounded-lg text-lg py-2 px-4"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div
+                    class="bg-secondary flex flex-col justify-center items-center gap-3 w-60 md:w-[360px] md:h-[475px] h-[365px] rounded-xl"
+                  >
+                    <!-- product image -->
+                    <div class="w-52 h-52 md:w-80 md:h-72">
+                      <img
+                        src="../images/cat-acchar-banner.webp"
+                        alt=""
+                        class="h-full w-full object-cover rounded-lg"
+                      />
+                    </div>
+                    <!-- product-info -->
+                    <div
+                      class="self-start flex items-center justify-between pl-5 w-full"
+                    >
+                      <!-- product details like name and price -->
+                      <div class="">
+                        <p class="md:text-2xl">Product Name</p>
+                        <p class="text-sm md:text-lg">$18.09</p>
+                      </div>
+
+                      <!-- product rating -->
+                      <div
+                        class="bg-text flex items-center justify-center mr-4 md:mr-6 gap-1 h-fit w-fit p-1.5 rounded-full"
+                      >
+                        <p class="text-white text-xs">4.3</p>
+                        <img src="../images/star.png" alt="" class="h-3 w-3" />
+                      </div>
+                    </div>
+                    <!-- add to cart button -->
+                    <button
+                      class="bg-primary uppercase text-center w-[80%] md:w-[90%] md:h-16 rounded-lg text-lg py-2 px-4"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div
+                    class="bg-secondary flex flex-col justify-center items-center gap-3 w-60 md:w-[360px] md:h-[475px] h-[365px] rounded-xl"
+                  >
+                    <!-- product image -->
+                    <div class="w-52 h-52 md:w-80 md:h-72">
+                      <img
+                        src="../images/cat-acchar-banner.webp"
+                        alt=""
+                        class="h-full w-full object-cover rounded-lg"
+                      />
+                    </div>
+                    <!-- product-info -->
+                    <div
+                      class="self-start flex items-center justify-between pl-5 w-full"
+                    >
+                      <!-- product details like name and price -->
+                      <div class="">
+                        <p class="md:text-2xl">Product Name</p>
+                        <p class="text-sm md:text-lg">$18.09</p>
+                      </div>
+
+                      <!-- product rating -->
+                      <div
+                        class="bg-text flex items-center justify-center mr-4 md:mr-6 gap-1 h-fit w-fit p-1.5 rounded-full"
+                      >
+                        <p class="text-white text-xs">4.3</p>
+                        <img src="../images/star.png" alt="" class="h-3 w-3" />
+                      </div>
+                    </div>
+                    <!-- add to cart button -->
+                    <button
+                      class="bg-primary uppercase text-center w-[80%] md:w-[90%] md:h-16 rounded-lg text-lg py-2 px-4"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div
+              class="hidden md:flex justify-center pr-7 mt-4"
+              data-glide-el="controls"
+            >
+              <button
+                class="glide__arrow glide__arrow--left"
+                data-glide-dir="<"
+              >
+                <img src="../images/chevron-left.svg" alt="" />
+              </button>
+              <button
+                class="glide__arrow glide__arrow--right"
+                data-glide-dir=">"
+              >
+                <img src="../images/chevron-right.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer container -->
+      <footer class="py-8 px-6 md:px-12 md:py-20">
+        <div
+          class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0 text-center md:text-left"
+        >
+          <!-- Left Section - Logo & Social Media -->
+          <div class="flex flex-col space-y-4 items-center w-full md:w-auto">
+            <img
+              src="../images/logo-brand-image.webp"
+              alt="Owlet Logo"
+              class="h-12"
+            />
+            <!-- Social Media Icons -->
+            <div class="flex space-x-4">
+              <a href="#" class="">
+                <img class="h-5" src="../images/instagram.png" alt="" />
+              </a>
+              <a href="#" class="">
+                <img class="h-5" src="../images/facebook.png" alt=""
+              /></a>
+              <a href="#" class="">
+                <img class="h-5" src="../images/youtube.png" alt=""
+              /></a>
+            </div>
+          </div>
+
+          <!-- Middle & Right Section - Categories & Policies -->
+          <div
+            class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 text-sm w-full md:w-auto"
+          >
+            <!-- Product Category -->
+            <div>
+              <h4 class="font-semibold text-xl font-mont mb-2">
+                Product Category
+              </h4>
+              <ul class="space-y-1">
+                <li><a href="#" class="hover:underline">Achaar</a></li>
+                <li><a href="#" class="hover:underline">Honey</a></li>
+              </ul>
+            </div>
+
+            <!-- General Policies -->
+            <div>
+              <h4 class="font-semibold text-xl font-mont mb-2">General</h4>
+              <ul class="space-y-1">
+                <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                <li>
+                  <a href="#" class="hover:underline">Shipping & Delivery</a>
+                </li>
+                <li><a href="#" class="hover:underline">Refund Policy</a></li>
+              </ul>
+            </div>
+
+            <!-- About Us -->
+            <div>
+              <h4 class="font-semibold text-xl font-mont mb-2">About us</h4>
+              <ul class="space-y-1">
+                <li><a href="#" class="hover:underline">About us</a></li>
+                <li><a href="#" class="hover:underline">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="../scripts/product.js"></script>
+  </body>
+</html>

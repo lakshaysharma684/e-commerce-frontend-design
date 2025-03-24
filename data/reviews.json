@@ -1,0 +1,39 @@
+{
+    "success": true,
+    "message": "Approved reviews retrieved successfully",
+    "data": [
+        {
+            "id": 16,
+            "product_id": 32,
+            "reviewer_name": "Manav",
+            "reviewer_email": "manavsinglq@gmail.com",
+            "review": "Using this from last 2 month, Fully satisfied as i am not taking pump now. 80 percent asthma is now ok.",
+            "rating": 5,
+            "is_approved": 1,
+            "created_at": "2025-02-28T03:40:03.000000Z",
+            "updated_at": "2025-02-28T03:40:03.000000Z"
+        },
+        {
+            "id": 17,
+            "product_id": 32,
+            "reviewer_name": "Sapna singla",
+            "reviewer_email": "sapnaji@gmail.com",
+            "review": "Having asthma since 2010 and taking pump on regular basis and now using this from last 1 month as recommended by Dr. Lavish. Fully satisfied with the results. Thankyou sir",
+            "rating": 5,
+            "is_approved": 1,
+            "created_at": "2025-02-28T03:41:39.000000Z",
+            "updated_at": "2025-02-28T03:41:39.000000Z"
+        },
+        {
+            "id": 24,
+            "product_id": 32,
+            "reviewer_name": "Happy singh",
+            "reviewer_email": "happy@gmail.com",
+            "review": "Having respiratory issues from 3 year and using this for 60 days and my problem is totally solved.",
+            "rating": 5,
+            "is_approved": 1,
+            "created_at": "2025-03-02T08:15:38.000000Z",
+            "updated_at": "2025-03-02T08:15:38.000000Z"
+        }
+    ]
+}

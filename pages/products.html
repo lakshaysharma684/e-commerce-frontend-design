@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/output.css" />
+  </head>
+  <body>
+    <div class="text-text font-open bg-bg">
+      <!-- header for info -->
+      <header class="bg-primary p-2 border-b border-gray-400">
+        <p class="text-center text-sm">All About Sales or Event</p>
+      </header>
+
+      <!-- navbar  -->
+      <nav class="relative flex py-5 justify-between items-center">
+        <!-- left-nav icon -->
+        <div class="px-5 md:px-10">
+          <img
+            id="nav-menu"
+            class="md:hidden"
+            src="../images/menu.svg"
+            alt="Menu-icon"
+          />
+          <img
+            class="hidden md:block"
+            src="../images/search.svg"
+            alt="search-icon"
+          />
+          <img id="nav-x" src="../images/x.svg" alt="" class="hidden" />
+        </div>
+        <!-- logo and website links -->
+        <div class="md:flex md:flex-col md:items-center gap-2">
+          <img src="../images/logo-brand-image 2.png" alt="Logo-image" />
+          <!-- web nav links -->
+          <ul class="hidden md:flex items-center gap-5">
+            <li class="text-lg"><a href="#">Shop</a></li>
+            <li class="text-lg"><a href="#">Polices</a></li>
+            <li class="text-lg"><a href="#">Contact Us</a></li>
+            <li class="text-lg"><a href="#">About Us</a></li>
+          </ul>
+        </div>
+        <!-- search and cat icon section -->
+        <div class="flex items-center gap-4 px-5 md:px-10">
+          <img class="md:hidden" src="../images/search.svg" alt="search-icon" />
+          <img src="../images/shopping-bag.svg" alt="shopping-bag-icon" />
+        </div>
+
+        <!-- mobile phone links cotainer -->
+        <div
+          id="mobile-nav"
+          class="md:hidden h-96 bg-secondary absolute w-full top-20 z-20 p-5 -translate-y-[1000px] transition-transform duration-500 ease-in-out"
+        >
+          <ul class="space-y-2.5">
+            <li class="text-lg"><a href="#">Shop</a></li>
+            <li class="text-lg"><a href="#">Polices</a></li>
+            <li class="text-lg"><a href="#">Contact Us</a></li>
+            <li class="text-lg"><a href="#">About Us</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- section for filter -->
+      <section
+        class="px-5 md:px-10 flex md:flex-col md:items-start items-center justify-between"
+      >
+        <!-- heading -->
+        <h2 class="md:text-4xl font-semibold font-mont text-2xl">Products</h2>
+        <!-- filter section -->
+        <div class="">
+          <!-- mobile view container -->
+          <button id="m-filter-btn" class="md:hidden flex gap-1 items-center">
+            <img class="h-4 w-4" src="../images/filter.svg" alt="" />
+            <p class="text-sm">Filters</p>
+          </button>
+          <!-- mobile category and filter container -->
+          <div
+            id="m-filter-option"
+            class="fixed md:hidden bg-black/25 w-screen top-0 left-0 h-screen flex justify-end transition-all ease-in-out duration-500 -translate-x-[1000px]"
+          >
+            <div class="bg-amber-50 w-[90%] flex flex-col justify-between">
+              <!-- mobile section heading -->
+              <div
+                class="flex items-center justify-between p-3 border-b border-gray-300"
+              >
+                <div class="text-center w-full">
+                  <h4>Filter and Category</h4>
+                  <p>15 product</p>
+                </div>
+                <button id="m-filter-cancel" class="flex justify-end">
+                  <img src="../images/x.svg" alt="" />
+                </button>
+              </div>
+
+              <!-- filter options -->
+              <div class="py-10 space-y-5 h-full">
+                <div class="flex justify-between items-center px-4">
+                  <p>Category</p>
+                  <select
+                    class="w-40 px-3 py-2 border border-section rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-btn focus:border-btn text-text appearance-none"
+                    name="product"
+                    id="product-select"
+                  >
+                    <option value="p1" class="bg-secondary text-text">
+                      Product Product Product
+                    </option>
+                    <option value="p2" class="bg-secondary text-text">
+                      P1
+                    </option>
+                  </select>
+                </div>
+                <div class="flex justify-between items-center px-4">
+                  <p>Price</p>
+                  <select
+                    class="w-40 px-3 py-2 border border-section rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-btn focus:border-btn text-text appearance-none"
+                    name="product"
+                    id="product-select"
+                  >
+                    <option value="p1" class="bg-secondary text-text">
+                      Product Product Product
+                    </option>
+                    <option value="p2" class="bg-secondary text-text">
+                      P1
+                    </option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- button to apply or remove filter section -->
+              <div
+                class="py-5 p-3 border-t border-gray-300 flex justify-center gap-7"
+              >
+                <button class="border-0 underline">Remove all</button>
+                <button
+                  class="w-32 h-10 rounded text-lg bg-primary font-medium"
+                >
+                  Apply
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- website filter and category section -->
+        <div
+          class="hidden py-3 md:flex items-center justify-between w-full pr-4"
+        >
+          <div class="flex gap-3 justify-between items-center">
+            <p>Category</p>
+            <select
+              class="w-40 px-3 py-2 border border-section rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-btn focus:border-btn text-text appearance-none"
+              name="product"
+              id="product-select"
+            >
+              <option value="p1" class="bg-secondary text-text">
+                Product Product Product
+              </option>
+              <option value="p2" class="bg-secondary text-text">P1</option>
+            </select>
+          </div>
+          <div class="flex gap-3 justify-between items-center">
+            <p>Price</p>
+            <select
+              class="w-40 px-3 py-2 border border-section rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-btn focus:border-btn text-text appearance-none"
+              name="product"
+              id="product-select"
+            >
+              <option value="p1" class="bg-secondary text-text">
+                Product Product Product
+              </option>
+              <option value="p2" class="bg-secondary text-text">P1</option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <!-- main container to show all products -->
+      <main
+        id="products-container"
+        class="flex flex-wrap justify-center gap-2 md:gap-8 md:pt-8 pt-4"
+      ></main>
+
+      <!-- Footer container -->
+      <footer class="md:mt-32 py-8 px-6 md:px-12 md:py-20">
+        <div
+          class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0 text-center md:text-left"
+        >
+          <!-- Left Section - Logo & Social Media -->
+          <div class="flex flex-col space-y-4 items-center w-full md:w-auto">
+            <img
+              src="../images/logo-brand-image.webp"
+              alt="Owlet Logo"
+              class="h-12"
+            />
+            <!-- Social Media Icons -->
+            <div class="flex space-x-4">
+              <a href="#" class="">
+                <img class="h-5" src="../images/instagram.png" alt="" />
+              </a>
+              <a href="#" class="">
+                <img class="h-5" src="../images/facebook.png" alt=""
+              /></a>
+              <a href="#" class="">
+                <img class="h-5" src="../images/youtube.png" alt=""
+              /></a>
+            </div>
+          </div>
+
+          <!-- Middle & Right Section - Categories & Policies -->
+          <div
+            class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 text-sm w-full md:w-auto"
+          >
+            <!-- Product Category -->
+            <div>
+              <h4 class="font-semibold text-xl font-mont mb-2">
+                Product Category
+              </h4>
+              <ul class="space-y-1">
+                <li><a href="#" class="hover:underline">Achaar</a></li>
+                <li><a href="#" class="hover:underline">Honey</a></li>
+              </ul>
+            </div>
+
+            <!-- General Policies -->
+            <div>
+              <h4 class="font-semibold text-xl font-mont mb-2">General</h4>
+              <ul class="space-y-1">
+                <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                <li>
+                  <a href="#" class="hover:underline">Shipping & Delivery</a>
+                </li>
+                <li><a href="#" class="hover:underline">Refund Policy</a></li>
+              </ul>
+            </div>
+
+            <!-- About Us -->
+            <div>
+              <h4 class="font-semibold text-xl font-mont mb-2">About us</h4>
+              <ul class="space-y-1">
+                <li><a href="#" class="hover:underline">About us</a></li>
+                <li><a href="#" class="hover:underline">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="../scripts/products.js"></script>
+  </body>
+</html>

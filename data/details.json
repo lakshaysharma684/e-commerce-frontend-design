@@ -1,0 +1,107 @@
+{
+    "success": true,
+    "data": {
+      "id": 8,
+      "sku": "MADHOSH_MIX_001",
+      "category_id": 9,
+      "name": "Madhosh Mix",
+      "product_content": {
+        "DESCRIPTION": "Madhosh Mix: The Taste of Murthal<br><br>Indulge in our Madhosh Mix, a vibrant medley that captures the spirited essence of Murthal's culinary heritage. This delightful mix features a tantalizing combination of spices, crunchy ingredients, and bold flavors that create a truly addictive snack.<br><br>Perfect for munching on its own or as a zesty topping for your favorite dishes, Madhosh Mix is a celebration of taste and tradition. Each bite offers a burst of savory goodness that will keep you coming back for more, embodying the lively spirit of Murthal in every handful.<br><br>Crafted with all-natural ingredients, our Madhosh Mix is the ideal companion for gatherings or a flavorful treat to enjoy anytime. Experience the authentic taste of Murthal with this deliciously irresistible\u00a0blend!",
+        "INGREDIENTS": "Aam, Nimbu, Teent, Gajar, Kamal Kakadi, Garam masala, Sendha namak, Kalanamak, Kali mirch powder, Hari mirch, Pili sarso rail, Dhaniya powder, Haldo powder, Kashmiri lal mirch, Sada namak, Methi powder, Ajvain aur dher sara pyaar",
+        "STORAGE INFO": "Best Before One Year From Manufacturing",
+        "INSTRUCTIONS": "Do not buy or use if the glass or seal is broken. Store in cool, dry and hygienic place. Do not store in metallic utensils. Do not use wet spoon. Wash hands before use."
+      },
+      "expiration_date": "2025-12-31",
+      "market_retail_price": "499.00",
+      "base_currency": "INR",
+      "base_discount_percentage": "0.00",
+      "base_discount_amount": "0.00",
+      "final_price": "499.00",
+      "is_active": "1",
+      "is_salable": "1",
+      "deleted": "0",
+      "created_at": "2024-10-15T22:40:25.000000Z",
+      "updated_at": "2024-10-23T19:20:11.000000Z",
+      "payment_methods": {
+        "credit_card": true,
+        "paypal": true
+      },
+      "delivery_methods": {
+        "standard": true,
+        "express": false
+      },
+      "subcategory": 9,
+      "product_images": {
+        "banner": [
+          "madhosh_mix_1.png",
+          "madhosh_mix_2.png"
+        ],
+        "detail": [
+          "madhosh_mix_1.jpeg",
+          "madhosh_mix_2.jpeg",
+          "madhosh_mix_3.jpeg",
+          "madhosh_mix_4.jpeg",
+          "madhosh_mix_5.jpeg"
+        ]
+      },
+      "category": {
+        "id": 9,
+        "name": "Acchar",
+        "description": "Increase taste of food",
+        "parent_id": null,
+        "is_active": "1",
+        "is_deleted": "0",
+        "created_at": "2024-10-13T10:10:04.000000Z",
+        "updated_at": "2024-10-13T10:10:04.000000Z"
+      },
+      "variations": [
+        {
+          "id": 3,
+          "variant_name": "500 gm",
+          "variant_unit": "gm",
+          "market_retail_price": "499.00",
+          "final_price": "499.00",
+          "varient_image": [
+            "500_gm_madhosh_mix_1.jpeg",
+            "500_gm_madhosh_mix_2.jpeg",
+            "500_gm_madhosh_mix_3.jpeg",
+            "500_gm_madhosh_mix_4.jpeg",
+            "500_gm_madhosh_mix_5.jpeg"
+          ]
+        },
+        {
+          "id": 4,
+          "variant_name": "250 gm",
+          "variant_unit": "gm",
+          "market_retail_price": "299.00",
+          "final_price": "299.00",
+          "varient_image": [
+            "250_gm_madhosh_mix_1.jpeg",
+            "250_gm_madhosh_mix_2.jpeg",
+            "250_gm_madhosh_mix_3.jpeg",
+            "250_gm_madhosh_mix_4.jpeg",
+            "250_gm_madhosh_mix_5.jpeg"
+          ]
+        },
+        {
+          "id": 24,
+          "variant_name": "100 gm",
+          "variant_unit": "gm",
+          "market_retail_price": "150.00",
+          "final_price": "150.00",
+          "varient_image": [
+            "100_gm_madhosh_mix_1.jpeg",
+            "100_gm_madhosh_mix_2.jpeg",
+            "100_gm_madhosh_mix_3.jpeg",
+            "100_gm_madhosh_mix_4.jpeg",
+            "100_gm_madhosh_mix_5.jpeg"
+          ]
+        }
+      ],
+      "review_stats": {
+        "total_reviews": 0,
+        "average_rating": 0
+      }
+    }
+  }
+  

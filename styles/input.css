@@ -24,6 +24,7 @@
   /* breakpoints */
   --breakpoint-mbl: 48rem;
   --breakpoint-tab: 64rem;
+  --breakpoint-2xl: 100rem;
 }
 
 .glide__slide img {

@@ -1,5 +1,6 @@
-// mobile nav menu show
+import ProductCard from '../components/ProductCard.js'
 
+// mobile nav menu show
 const menuIcon = document.getElementById("nav-menu");
 const cancelNavIcon = document.getElementById("nav-x");
 const navLinksMobile = document.getElementById("mobile-nav");
@@ -52,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
       1600:{perView:2},
       1400: { perView: 2 },
       850: { perView: 2.8 },
-      440: { perView: 1.4 },
+      440: { perView: 1.6 },
     },
   }).mount();
 });
@@ -69,3 +70,77 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   }).mount();
 });
+
+
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   const productsContainer = document.getElementById("products");
+//   console.log(productContainer)
+  
+//   async function loadProductData(){
+//     try {
+      
+//       const res = await fetch("/data/product.json")
+//       const products = await res.json()
+//       const {data:productData} = products.data
+//       productData.slice(0,4).map((product) => {
+//         const productCard = ProductCard(product, () => {
+//           if (product.sku) {
+//             window.location.href = `product.html?name=${product.sku}`;
+//           } else {
+//             console.error("SKU is missing for product:", product);
+//           }
+//         });
+//         productsContainer.appendChild(productCard);
+//       });
+//     } catch (error) {
+//       console.log("Error fetching Products",error)
+//     }
+//   }
+
+//   loadProductData()
+
+
+// });
+
+{/* <div
+class="bg-secondary flex flex-col justify-center px-1 py-2 items-center gap-1 w-[181px] lg:w-[20rem] lg:h-[450px] 2xl:w-[23rem] 2xl:h-[475px] h-72 rounded-lg"
+>
+<!-- product image -->
+<div class="h-[181px] w-44 lg:w-[90%] lg:h-72">
+  <img
+    class="h-full w-full object-cover rounded-lg"
+    src="./images/cat-acchar-banner.webp"
+    alt=""
+  />
+</div>
+
+<!-- product details -->
+<div class="w-full space-y-1.5 px-2 lg:px-5">
+  <div class="flex justify-between items-center">
+    <div>
+      <p class="font-mont text-lg lg:text-2xl">Product Name</p>
+      <p class="text-sm lg:text-lg">$18.9</p>
+    </div>
+    <!-- product rating -->
+    <div
+      class="bg-text lg:flex hidden items-center justify-center gap-1 h-fit w-fit p-1.5 rounded-full"
+    >
+      <p class="text-white text-xs lg:text-sm">4.3</p>
+      <img
+        src="./images/star.png"
+        alt=""
+        class="h-3 w-3 lg:h-4 lg:w-4"
+      />
+    </div>
+  </div>
+
+  <div class="w-full flex justify-center">
+    <button
+      class="bg-primary font-light py-2 px-8 lg:w-full lg:h-16 rounded-lg text-lg lg:text-xl"
+    >
+      Add to Cart
+    </button>
+  </div>
+</div>
+</div> */}

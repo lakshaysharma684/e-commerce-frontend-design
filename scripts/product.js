@@ -60,6 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
     type: "carousel",
     perView: 3,
     breakpoints: {
+      2000:{perView:3},
+      1600:{perView:2.4},
       1024: { perView: 1.2 },
       850: { perView: 1 },
       440: { perView: 1.45 },

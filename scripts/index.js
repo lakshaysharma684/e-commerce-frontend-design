@@ -46,9 +46,12 @@ document.addEventListener("DOMContentLoaded", function () {
   new Glide(".glide-1", {
     type: "carousel",
     perView: 2.4,
+    gap:20,
     breakpoints: {
-      1024: { perView: 1.2 },
-      850: { perView: 1 },
+      2000:{perView:2.5},
+      1600:{perView:2},
+      1400: { perView: 2 },
+      850: { perView: 2.8 },
       440: { perView: 1.4 },
     },
   }).mount();

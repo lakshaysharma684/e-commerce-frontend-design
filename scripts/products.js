@@ -44,10 +44,30 @@ mFilterCancel.addEventListener("click", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const productsContainer = document.getElementById("products-container");
-  productData.map((elm) => {
-    const productCard = ProductCard(elm, () => {
-      window.location.href = `product.html?id=1 `;
-    });
-    productsContainer.appendChild(productCard);
-  });
+
+  
+  async function loadProductData(){
+    try {
+      
+      const res = await fetch("/data/product.json")
+      const products = await res.json()
+      const {data:productData} = products.data
+      productData.map((product) => {
+        const productCard = ProductCard(product, () => {
+          if (product.sku) {
+            window.location.href = `product.html?name=${product.sku}`;
+          } else {
+            console.error("SKU is missing for product:", product);
+          }
+        });
+        productsContainer.appendChild(productCard);
+      });
+    } catch (error) {
+      console.log("Error fetching Products",error)
+    }
+  }
+
+  loadProductData()
+
+
 });

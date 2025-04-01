@@ -1,5 +1,5 @@
 export default function ProductCard(
-  { imageSrc, name, price, rating },
+  { imageSrc, sku, final_price, review_stats },
   onClick
 ) {
   const card = document.createElement("div");
@@ -12,7 +12,7 @@ export default function ProductCard(
   const img = document.createElement("img");
   img.className = "h-full w-full object-cover rounded-lg";
   img.src = imageSrc;
-  img.alt = name;
+  img.alt = sku;
 
   imageContainer.appendChild(img);
   card.appendChild(imageContainer);
@@ -27,12 +27,12 @@ export default function ProductCard(
   const productInfo = document.createElement("div");
 
   const productName = document.createElement("p");
-  productName.className = "font-mont text-lg lg:text-2xl";
-  productName.textContent = name;
+  productName.className = "font-mont text-lg lg:text-xl lg:w-60 w-40 truncate overflow-hidden whitespace-nowrap";
+  productName.textContent = sku;
 
   const productPrice = document.createElement("p");
   productPrice.className = "text-sm lg:text-lg";
-  productPrice.textContent = `$${price}`;
+  productPrice.textContent = `$${final_price}`;
 
   productInfo.appendChild(productName);
   productInfo.appendChild(productPrice);
@@ -45,7 +45,7 @@ export default function ProductCard(
 
   const ratingText = document.createElement("p");
   ratingText.className = "text-white text-xs lg:text-sm";
-  ratingText.textContent = rating;
+  ratingText.textContent = `${review_stats.average_rating}.${review_stats.total_reviews}`;
 
   const starImg = document.createElement("img");
   starImg.src = "../images/star.png";
